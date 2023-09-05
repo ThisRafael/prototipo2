@@ -15,9 +15,25 @@
         <div class="col-lg-6">
           <div class="section-heading">
             <h6>| Preguntas Frecuentes </h6>
-            <h2>Carpe diem</h2>
+            <h2>Tienes Alguna Pregunta Para Nosotros?</h2>
           </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aut consequuntur cum, architecto nisi cupiditate delectus enim in quisquam minus laboriosam et consectetur, deserunt aliquid debitis quis, reiciendis necessitatibus cumque.</p>
+          <p>Preguntas Frecuentes, Encuentra las Respuestas que Necesitas.</p>
+          <p>Resolvemos tus Dudas.</p>
+          <p>Respuestas a las Preguntas Más Comunes sobre Bienes Raíces.</p>
+
+          <form action="/procesar_formulario" method="post">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required><br><br>
+
+                  <label for="email">Correo Electrónico:</label>
+                  <input type="email" id="email" name="email" required><br><br>
+
+                  <label for="mensaje">Mensaje:</label><br>
+                  <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+                  <input type="submit" value="Enviar">
+          </form>
+          
           <div class="row">
             <div class="col-lg-12">
               <div class="item phone">

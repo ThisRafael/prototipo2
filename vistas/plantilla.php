@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/galeria.estilos.css">
+
 <!--
 
 TemplateMo 591 villa agency
@@ -108,7 +110,8 @@ https://templatemo.com/tm-591-villa-agency
         $_GET["enviar"] == "historias" || 
         $_GET["enviar"] == "preguntasFrecuentes" || 
         $_GET["enviar"] == "Citas" || 
-        $_GET["enviar"] == "quienesSomos"){
+        $_GET["enviar"] == "quienesSomos" ||
+        $_GET["enviar"] == "alquiler"){
 
           include "vistas/".$_GET["enviar"].".php";
         }
